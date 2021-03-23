@@ -11,6 +11,7 @@ class SkaiciavimaiController extends Controller
         if(is_numeric($a) && is_numeric($b)) {
             $suma = $a + $b;
             return view('suma', compact('a', 'b', 'suma'));
+                   //bleido pavadinimas            //bleide suma  pavyrsta kintamuoju
         } else {
             return 'Iveskite skaicius';
         }
